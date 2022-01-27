@@ -1,0 +1,271 @@
+baseurl: localhost:1313
+title: BouwBureau Brok | Staal Specialist
+languageCode: en-us
+theme: hugo-elate-theme
+params:
+  author: ''
+  icon: img/favicon.ico
+  logo: img/bbb_main.png
+  custom_css:
+    - css/custom1.css
+    - css/custom2.css
+  description: ''
+  email: ''
+  
+  navigation:
+    about: Over
+    brand: Bouwbureau Brok
+    contact: Contact
+    home: Home
+    services: Services
+    testimonials: Reviews
+    work: Diensten
+    
+  hero:
+    subtitle: '✓ Huidige verwachte levertijd: 2 weken </br>
+    ✓ Berekening volgens actuele bouwnormen </br>
+    ✓ Wij realiseren projecten door heel Nederland'
+    title: Constructieberekening nodig?
+    
+  intro:
+    item:
+      - button: Get In Touch
+        description: Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        icon: icon-calculator
+        img: img_7.jpg
+        title: Berekeningen
+        url: '#fh5co-contact'
+      - button: Click Me
+        description: Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        icon: icon-clock
+        img: img_8.jpg
+        title: Snelle levering
+        url: '#'
+      - button: Why us?
+        description: Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        icon: icon-wrench
+        img: img_10.jpg
+        title: Maatwerk
+        url: '#'
+        
+    video:
+      enable: no
+      icon: icon-play2
+      title: Watch the video
+      url: https://vimeo.com/channels/staffpicks/93951774
+  
+  work:
+    description: Far far away, behind the word mountains, far from the countries Vokalia
+      and Consonantia, there live the blind texts.
+    enable: yes
+    footertext: '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    row:
+      - alt: Image2
+        img: work_1.jpg
+        subtitle: Branding
+        title: Project 1
+      - alt: Image2
+        img: work_2.jpg
+        subtitle: Design
+        title: Project 2
+      - alt: Image3
+        img: work_3.jpg
+        subtitle: Design
+        title: Project 3
+      - alt: Image4
+        img: work_4.jpg
+        subtitle: Design
+        title: Project 4
+      - alt: Image5
+        img: work_5.jpg
+        subtitle: Design
+        title: Project 5
+      - alt: Image6
+        img: work_6.jpg
+        subtitle: Design
+        title: Project 6
+    title: Work
+  
+  testimonials:
+    description: Far far away, behind the word mountains, far from the countries Vokalia
+      and Consonantia, there live the blind texts.
+    enable: yes
+    item:
+      - alt: Person1
+        img: person1.jpg
+        person: Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a>
+          <span class="subtext">Creative Director</span>
+        quote: '&ldquo;Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Separated they live
+          in Bookmarksgrove right at the coast of the Semantics, a large language
+          ocean.&rdquo;'
+      - alt: Person2
+        img: person2.jpg
+        person: John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a>
+          <span class="subtext">Creative Director</span>
+        quote: '&ldquo;Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Separated they live
+          in Bookmarksgrove right at the coast of the Semantics, a large language
+          ocean. Far far away, behind the word mountains, far from the countries Vokalia
+          and Consonantia, there live the blind texts.&rdquo;'
+      - alt: Person3
+        img: person3.jpg
+        person: Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a>
+          <span class="subtext">Creative Director</span>
+        quote: '&ldquo;Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. &rdquo;'
+    title: Testimonials
+  
+  services:
+    description: Far far away, behind the word mountains, far from the countries Vokalia
+      and Consonantia, there live the blind texts.
+    enable: yes
+    item:
+      - description: Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Separated they live
+          in Bookmarksgrove right at the coast of the Semantics, a large language
+          ocean
+        icon: icon-anchor
+        title: Brand &amp; Strategy
+      - description: Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Separated they live
+          in Bookmarksgrove right at the coast of the Semantics, a large language
+          ocean
+        icon: icon-layers2
+        title: Web &amp; Interface
+      - description: Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Separated they live
+          in Bookmarksgrove right at the coast of the Semantics, a large language
+          ocean
+        icon: icon-video2
+        title: Photo &amp; Video
+      - description: Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Separated they live
+          in Bookmarksgrove right at the coast of the Semantics, a large language
+          ocean
+        icon: icon-monitor
+        title: CMS &amp; eCommerce
+    title: Services
+    
+  about:
+    description: Far far away, behind the word mountains, far from the countries Vokalia
+      and Consonantia, there live the blind texts.
+    enable: yes
+    item:
+      - alt: Person1
+        description: Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts
+        img: person1.jpg
+        name: Jean Smith
+        position: Web Designer
+        social:
+          - - icon-twitter
+            - '#'
+          - - icon-facebook
+            - '#'
+          - - icon-linkedin
+            - '#'
+      - alt: Person2
+        description: Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts
+        img: person2.jpg
+        name: Rob Smith
+        position: Web Developer
+        social:
+          - - icon-twitter
+            - '#'
+          - - icon-facebook
+            - '#'
+          - - icon-github
+            - '#'
+      - alt: Person3
+        description: Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts
+        img: person3.jpg
+        name: Larry Ben
+        position: Web Designer
+        social:
+          - - icon-twitter
+            - '#'
+          - - icon-facebook
+            - '#'
+          - - icon-dribbble
+            - '#'
+    title: About
+  
+  counters:
+    background: full_image_1.jpg
+    enable: yes
+    item:
+      - description: Finished projects
+        from: 0
+        icon: icon-briefcase
+        interval: 50
+        speed: 5000
+        to: 89
+      - description: Lines of code
+        from: 0
+        icon: icon-code
+        interval: 50
+        speed: 5000
+        to: 2343409
+      - description: Cups of coffee
+        from: 0
+        icon: icon-cup
+        interval: 50
+        speed: 5000
+        to: 1302
+      - description: Happy clients
+        from: 0
+        icon: icon-people
+        interval: 50
+        speed: 5000
+        to: 52
+    title: Stats
+  
+  contact:
+    button: Send message
+    description: Far far away, behind the word mountains, far from the countries Vokalia
+      and Consonantia, there live the blind texts.
+    details:
+      - - icon-home
+        - 5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom
+      - - icon-phone
+        - (123) 465-6789
+      - - icon-envelope
+        - info@freehtml5.co
+      - - icon-globe
+        - <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>
+    email: Email
+    enable: yes
+    form: yes
+    map: yes
+    message: Message
+    name: Name
+    phone: Phone
+    title: Get in touch
+  
+
+  footer:
+    copyright: '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/"
+      target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>,
+      <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55"
+      target="_blank">saey55</a>'
+    enable: yes
+    links:
+      - - icon-twitter
+        - '#twitter'
+      - - icon-facebook
+        - '#facebook'
+      - - icon-youtube
+        - '#youtube'
+  googleMapsApiKey: ''
+  
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
