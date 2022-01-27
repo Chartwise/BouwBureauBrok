@@ -4,8 +4,9 @@ languageCode: en-us
 theme: hugo-elate-theme
 params:
   author: ''
-  icon: img/favicon.ico
-  logo: img/bbb_main.png
+  icon: images/favicon.ico
+  logo: images/bbb_main.png
+  avatar: images/bbb_main.png
   custom_css:
     - css/custom1.css
     - css/custom2.css
@@ -22,10 +23,10 @@ params:
     work: Diensten
     
   hero:
+    title: Constructieberekening nodig?
     subtitle: '✓ Huidige verwachte levertijd: 2 weken </br>
     ✓ Berekening volgens actuele bouwnormen </br>
     ✓ Wij realiseren projecten door heel Nederland'
-    title: Constructieberekening nodig?
     
   intro:
     item:
@@ -52,47 +53,60 @@ params:
         url: '#'
         
     video:
+      title: Watch the video
       enable: no
       icon: icon-play2
-      title: Watch the video
       url: https://vimeo.com/channels/staffpicks/93951774
   
   work:
+    title: Diensten
     description: Far far away, behind the word mountains, far from the countries Vokalia
       and Consonantia, there live the blind texts.
     enable: yes
-    footertext: '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    footertext: ''
     row:
       - alt: Image2
         img: work_1.jpg
-        subtitle: Branding
+        subtitle: 'Om meer loopruimte in uw woning te krijgen is een doorbraak 
+        een ideale oplossing. Vaak is het plaatsen van een stalen balk voldoende.'
+        price: Vanaf €600,-
         title: Project 1
       - alt: Image2
         img: work_2.jpg
-        subtitle: Design
+        subtitle: 'Om meer loopruimte in uw woning te krijgen is een doorbraak 
+        een ideale oplossing. Vaak is het plaatsen van een stalen balk voldoende.'
+        price: Vanaf €600,-
         title: Project 2
       - alt: Image3
         img: work_3.jpg
-        subtitle: Design
+        subtitle: 'Om meer loopruimte in uw woning te krijgen is een doorbraak 
+        een ideale oplossing. Vaak is het plaatsen van een stalen balk voldoende.'
+        price: Vanaf €600,-
         title: Project 3
       - alt: Image4
         img: work_4.jpg
-        subtitle: Design
+        subtitle: 'Om meer loopruimte in uw woning te krijgen is een doorbraak 
+        een ideale oplossing. Vaak is het plaatsen van een stalen balk voldoende.'
+        price: Vanaf €600,-
         title: Project 4
       - alt: Image5
         img: work_5.jpg
-        subtitle: Design
+        subtitle: 'Om meer loopruimte in uw woning te krijgen is een doorbraak 
+        een ideale oplossing. Vaak is het plaatsen van een stalen balk voldoende.'
+        price: Vanaf €600,-
         title: Project 5
       - alt: Image6
         img: work_6.jpg
-        subtitle: Design
+        subtitle: 'Om meer loopruimte in uw woning te krijgen is een doorbraak 
+        een ideale oplossing. Vaak is het plaatsen van een stalen balk voldoende.'
+        price: Vanaf €600,-
         title: Project 6
-    title: Work
   
   testimonials:
+    title: Wat klanten zeggen
     description: Far far away, behind the word mountains, far from the countries Vokalia
       and Consonantia, there live the blind texts.
-    enable: yes
+    enable: no
     item:
       - alt: Person1
         img: person1.jpg
@@ -117,12 +131,12 @@ params:
           <span class="subtext">Creative Director</span>
         quote: '&ldquo;Far far away, behind the word mountains, far from the countries
           Vokalia and Consonantia, there live the blind texts. &rdquo;'
-    title: Testimonials
   
   services:
+    title: Services
     description: Far far away, behind the word mountains, far from the countries Vokalia
       and Consonantia, there live the blind texts.
-    enable: yes
+    enable: no
     item:
       - description: Far far away, behind the word mountains, far from the countries
           Vokalia and Consonantia, there live the blind texts. Separated they live
@@ -148,12 +162,12 @@ params:
           ocean
         icon: icon-monitor
         title: CMS &amp; eCommerce
-    title: Services
     
   about:
+    title: About
     description: Far far away, behind the word mountains, far from the countries Vokalia
       and Consonantia, there live the blind texts.
-    enable: yes
+    enable: no
     item:
       - alt: Person1
         description: Far far away, behind the word mountains, far from the countries
@@ -194,10 +208,10 @@ params:
             - '#'
           - - icon-dribbble
             - '#'
-    title: About
   
   counters:
-    background: full_image_1.jpg
+    title: Stats
+    background: stats.jpg
     enable: yes
     item:
       - description: Finished projects
@@ -224,29 +238,26 @@ params:
         interval: 50
         speed: 5000
         to: 52
-    title: Stats
   
   contact:
-    button: Send message
+    button: Stuur bericht
     description: Far far away, behind the word mountains, far from the countries Vokalia
       and Consonantia, there live the blind texts.
     details:
       - - icon-home
-        - 5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom
+        - Boogschutter 44, Schijndel, <br> Nederland
       - - icon-phone
         - (123) 465-6789
       - - icon-envelope
         - info@freehtml5.co
-      - - icon-globe
-        - <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>
     email: Email
     enable: yes
     form: yes
     map: yes
-    message: Message
-    name: Name
-    phone: Phone
-    title: Get in touch
+    message: Bericht
+    name: Naam
+    phone: Telefoon Nr.
+    title: Vraag offerte aan
   
 
   footer:

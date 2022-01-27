@@ -3,3 +3,16 @@
   --secondary-color: #00efb9;
 }
 
+#fh5co-work .fh5co-project-item .fh5co-text h2 {
+  margin-bottom: 5px;
+}
+
+#fh5co-work .fh5co-project-item .fh5co-text h5 {
+  color: #b3b3b3;
+  margin-bottom: 5px;
+}
+
+#fh5co-work .fh5co-project-item .fh5co-text span {
+  color: #333333;
+  margin-bottom:10px;
+}
