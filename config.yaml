@@ -3,6 +3,9 @@ title: BouwBureau Brok | Staal Specialist
 languageCode: en-us
 theme: hugo-elate-theme
 params:
+
+  # Meta ---- 
+  
   author: ''
   icon: images/favicon.ico
   logo: images/bbb_main.png
@@ -13,6 +16,22 @@ params:
   description: ''
   email: ''
   
+  # Navigation ---
+  # You can add custom links before or after the default links
+  # Assign a weight to define the order
+  
+  # prepended links
+  #[[menu.prepend]]
+  #  url = "http://gohugo.io"
+  #  name = "Hugo"
+  #  weight = 10
+
+  # postpended links
+  #[[menu.postpend]]
+  #  url = "http://gohugo.io"
+  #  name = "External link"
+  #  weight = 10
+
   navigation:
     about: Over
     brand: Bouwbureau Brok
@@ -21,13 +40,16 @@ params:
     services: Services
     testimonials: Reviews
     work: Diensten
-    
+  
+  # Hero section ----
   hero:
     title: Constructieberekening nodig?
     subtitle: '✓ Huidige verwachte levertijd: 2 weken </br>
     ✓ Berekening volgens actuele bouwnormen </br>
     ✓ Wij realiseren projecten door heel Nederland'
-    
+   
+  # Intro section ---- 
+  # Available icons: http://simplelineicons.com/
   intro:
     item:
       - button: Get In Touch
@@ -58,6 +80,7 @@ params:
       icon: icon-play2
       url: https://vimeo.com/channels/staffpicks/93951774
   
+  # Work section ----
   work:
     title: Diensten
     description: Far far away, behind the word mountains, far from the countries Vokalia
@@ -102,6 +125,7 @@ params:
         price: Vanaf €600,-
         title: Project 6
   
+  # Testimonials section ----
   testimonials:
     title: Wat klanten zeggen
     description: Far far away, behind the word mountains, far from the countries Vokalia
@@ -132,6 +156,7 @@ params:
         quote: '&ldquo;Far far away, behind the word mountains, far from the countries
           Vokalia and Consonantia, there live the blind texts. &rdquo;'
   
+  # Services section ----
   services:
     title: Services
     description: Far far away, behind the word mountains, far from the countries Vokalia
@@ -162,7 +187,8 @@ params:
           ocean
         icon: icon-monitor
         title: CMS &amp; eCommerce
-    
+  
+  # About section ----  
   about:
     title: About
     description: Far far away, behind the word mountains, far from the countries Vokalia
@@ -209,40 +235,44 @@ params:
           - - icon-dribbble
             - '#'
   
+  # Counters section ----
   counters:
     title: Stats
     background: stats.jpg
     enable: yes
     item:
-      - description: Finished projects
-        from: 0
-        icon: icon-briefcase
-        interval: 50
-        speed: 5000
-        to: 89
-      - description: Lines of code
-        from: 0
-        icon: icon-code
-        interval: 50
-        speed: 5000
-        to: 2343409
-      - description: Cups of coffee
-        from: 0
-        icon: icon-cup
-        interval: 50
-        speed: 5000
-        to: 1302
-      - description: Happy clients
+      - description: Tevreden Klanten
         from: 0
         icon: icon-people
         interval: 50
-        speed: 5000
-        to: 52
+        speed: 3000
+        to: 89
+      - description: Aantal Projecten
+        from: 0
+        icon: icon-cog
+        interval: 50
+        speed: 3000
+        to: 200
+      - description: Aantal Bouwtekeningen
+        from: 0
+        icon: icon-file-text-o
+        interval: 50
+        speed: 3000
+        to: 140
+      - description: Aantal Berekeningen
+        from: 0
+        icon: icon-calculator
+        interval: 50
+        speed: 3000
+        to: 300
   
+  
+  # Contact section ----
   contact:
     button: Stuur bericht
-    description: Far far away, behind the word mountains, far from the countries Vokalia
-      and Consonantia, there live the blind texts.
+    description: "Door het toevoegen van tekeningen, berekeningen en foto's
+    kunnen wij een beter beeld krijgen van de situatie en een betere offerte voor je maken."
+
     details:
       - - icon-home
         - Boogschutter 44, Schijndel, <br> Nederland
@@ -250,6 +280,8 @@ params:
         - (123) 465-6789
       - - icon-envelope
         - info@freehtml5.co
+      - - icon-work
+        - Kvk - 
     email: Email
     enable: yes
     form: yes
@@ -259,23 +291,19 @@ params:
     phone: Telefoon Nr.
     title: Vraag offerte aan
   
-
+  # Footer section ----
   footer:
-    copyright: '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/"
-      target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>,
-      <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55"
-      target="_blank">saey55</a>'
+    copyright: '© Bouwbureau Brok. All rights reserved.'
     enable: yes
     links:
       - - icon-twitter
         - '#twitter'
       - - icon-facebook
         - '#facebook'
-      - - icon-youtube
-        - '#youtube'
+      - - icon-linkedin
+        - 'https://www.linkedin.com/in/steven-brok-15a0ba59/'
   googleMapsApiKey: ''
   
-
 markup:
   goldmark:
     renderer:
