@@ -89,38 +89,38 @@ params:
     footertext: ''
     row:
       - alt: Image2
-        img: work_1.jpg
+        img: diensten/aanbouw.jpg
         subtitle: 'Het maken van een constructie berekening om een draagmuur te verwijderen.'
         price: Vanaf €332,75 incl. btw.
         title: Draagmuur verwijderen
       - alt: Image2
-        img: work_2.jpg
-        subtitle: 'Het maken van een constructie berekening om een aanbouw of opbouw te plaatsen'
+        img: diensten/aanbouw.jpg
+        subtitle: 'Het maken van een constructie berekening om een aanbouw of opbouw te plaatsen.'
         price: Vanaf €532,40 incl. btw.
         title: Aanbouw plaatsen
       - alt: Image3
-        img: work_3.jpg
+        img: diensten/aanbouw.jpg
         subtitle: 'Het maken van een constructie berekening om een nieuwe woning te bouwen.'
         price: Vanaf €798,60 incl. btw.
         title: Nieuwe woningbouwen
       - alt: Image4
-        img: work_4.jpg
+        img: diensten/aanbouw.jpg
         subtitle: 'Stalen hallen, bedrijfsgebouwen en stalen platformen berekenen 
         doen wij erg graag. We beschikken over een 3D staal reken programma waarmee 
         wij eenvoudig de meest complexe 3D staal berekeningen kunnen maken. 
         Een stalen entresol berekening start al vanaf 532,40 maar vraag eens naar de 
-        oneindige staal mogelijkheden binnen ons bedrijf. '
+        oneindige staal mogelijkheden binnen ons bedrijf.'
         price: Vanaf €532,40 incl. btw.
         title: 3D Staalconstructie 
       - alt: Image5
-        img: work_5.jpg
+        img: diensten/aanbouw.jpg
         subtitle: 'Denk hierbij aan een enkele vloer berekening, gordingen
         berekening of houten balklaag berekening. Ook het berekenen van uw 
         bestaande dak voor nieuwe zonnepanelen, kunt u door ons laten berekenen.'
         price: Vanaf €199,65 incl. btw.
         title: Overige constructieve aanpassingen
       - alt: Image6
-        img: work_6.jpg
+        img: diensten/aanbouw.jpg
         subtitle: 'Wij hanteren een uur tarief van 55 euro excl. btw. met een 
         start van 3 uur in verband met administratieve verwerkingen. 
         Doordat wij een klein adviesbureau zijn zonder kantoor en dure software
