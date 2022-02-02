@@ -22,31 +22,104 @@
 				{{ if .Site.Params.contact.form }}
 				<div class="col-md-6 to-animate">
 					<form method="post" action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}">
+					
+					<!-- Name --> 
 					<div class="form-group ">
 						{{ with .Site.Params.contact.name }}
 						<label for="name" class="sr-only">{{ . | markdownify }}</label>
-						<input id="name" class="form-control" name="name" placeholder="{{ . }}" type="text">
+						<input id="name" class="form-control" name="name" placeholder="{{ . }}" type="text" required>
 						{{ end }}
 					</div>
+					
+					<!-- Address --> 
+					<div class="form-group ">
+						{{ with .Site.Params.contact.address }}
+						<label for="address" class="sr-only">{{ . | markdownify }}</label>
+						<input id="address" class="form-control" name="name" placeholder="{{ . }}" type="text">
+						{{ end }}
+					</div>
+					
+					<!-- Postcode --> 
+					<div class="form-group ">
+						{{ with .Site.Params.contact.postcode }}
+						<label for="postcode" class="sr-only">{{ . | markdownify }}</label>
+						<input id="postcode" class="form-control" name="name" placeholder="{{ . }}" type="text">
+						{{ end }}
+					</div>
+					
+					<!-- City --> 
+					<div class="form-group ">
+						{{ with .Site.Params.contact.city }}
+						<label for="city" class="sr-only">{{ . | markdownify }}</label>
+						<input id="city" class="form-control" name="name" placeholder="{{ . }}" type="text">
+						{{ end }}
+					</div>
+					
+					<!-- Email --> 
 					<div class="form-group ">
 						{{ with .Site.Params.contact.email }}
 						<label for="email" class="sr-only">{{ . | markdownify }}</label>
-						<input id="email" class="form-control" name="_replyto" placeholder="{{ . }}" type="email">
+						<input id="email" class="form-control" name="_replyto" placeholder="{{ . }}" type="email" required>
 						{{ end }}
 					</div>
+					
+					<!-- Phone --> 
 					<div class="form-group ">
 						{{ with .Site.Params.contact.phone }}
 						<label for="phone" class="sr-only">{{ . | markdownify }}</label>
 						<input id="phone" class="form-control" name="phone" placeholder="{{ . }}" type="text">
 						{{ end }}
 					</div>
+					
+					<!-- Type --> 
+					<div class="form-group ">
+						{{ with .Site.Params.contact.type }}
+						<label for="type" class="sr-only">{{ . | markdownify }}</label>
+						<select id="type" name="type" class="form-control">
+						    <option disabled selected value> -- {{ . }} -- </option>
+						    <option value="draagmuur">Draagmuur verwijderen</option>
+						    <option value="aanbouw">Aanbouw plaatsen</option>
+						    <option value="nieuwbouw">Nieuwe woningbouw</option>
+						    <option value="staalconstructie">3D staalconstructie</option>
+						    <option value="overig">Overige constructieve aanpassingen</option>
+						    <option value="uurbasis">Op uurbasis</option></option>
+						</select>
+						{{ end }}
+					</div>
+					
+					<!-- Message --> 
 					<div class="form-group ">
 						{{ with .Site.Params.contact.message }}
 						<label for="message" class="sr-only">{{ . | markdownify }}</label>
 						<textarea id="message" cols="30" rows="5" class="form-control" name="message" placeholder="{{ . }}"></textarea>
 						{{ end }}
 					</div>
+					
+					<!-- Attachments --> 
 					<div class="form-group ">
+					  <h3 style = "margin-top:10px; margin-bottom:10px">Upload beschikbare gegevens</h3>
+					  <span> Om een offerte te kunnen maken hebben we duidelijke tekeningen nodig 
+					  waar de wensen in zijn bescrheven (eventueel met foto's ter ondersteuning). 
+					  Je kunt hieronder bestanden uploaden. Heb je nog niets? Geen probleem, je kunt
+					  de stukken later ook mailen naar s.brok@bouwbureaubrok.nl 
+					  </br>
+					  </span>
+						{{ with .Site.Params.contact.files }}
+						<label class = "btn btn-warning" style = "margin-top:10px;" for="files" class="sr-only" >{{ . | markdownify }}</label>
+					 <input  id = "files" style="display: none;" type="file" name="attachment" multiple>
+						{{ end }}
+					</div>
+					
+					<!-- Terms 
+					<div class="form-group ">
+						{{ with .Site.Params.contact.terms }}
+						<label for="terms">{{ . | markdownify }}</label>
+						<input id="terms"  type="checkbox"></input>
+						{{ end }}
+					</div>
+					--> 
+					<!-- Submit --> 
+					<div class="form-group" style = "float:right;">
 						<input class="btn btn-primary btn-lg" value="{{ .Site.Params.contact.button | markdownify }}" type="submit">
 					</div>
 					</form>
