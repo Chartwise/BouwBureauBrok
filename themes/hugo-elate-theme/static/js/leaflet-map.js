@@ -1,9 +1,9 @@
 function initMap() {
-    var latLong = [51.6196625, 5.4334974]; // Wiesbaden
+    var latLong = [51.6084943, 5.4490695]; // Wiesbaden
 
-    var map = L.map("map").setView(latLong, 10);
+    var map = L.map("map").setView(latLong, 13);
 
-    L.tileLayer("https://b.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
       maxZoom: 18,
     }).addTo(map);
