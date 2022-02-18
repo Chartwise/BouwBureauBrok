@@ -3,6 +3,7 @@
 		<div class="container">
 			<div class="">
 				<div class="col-md-12 text-center">
+				  <img src="{{ .Site.Params.footer.logo }}"class="footer_logo">
 					<p>{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}</p>
 				</div>
 			</div>

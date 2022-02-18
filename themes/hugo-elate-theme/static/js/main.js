@@ -124,6 +124,7 @@
 
 
 	// Window Scroll
+ /*
 	var windowScroll = function() {
 		var lastScrollTop = 0;
 
@@ -145,6 +146,7 @@
 			
 		});
 	};
+	*/
 
 
 
