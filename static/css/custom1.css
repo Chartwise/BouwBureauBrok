@@ -25,3 +25,8 @@
   max-height: 100px;
   margin:10px;
 }
+
+.gradient {
+  
+  background-image: none !important;
+}

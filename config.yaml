@@ -305,10 +305,6 @@ params:
     enable: yes
     logo: images/bbb_main.png
     links:
-      - - icon-twitter
-        - '#twitter'
-      - - icon-facebook
-        - '#facebook'
       - - icon-linkedin
         - 'https://www.linkedin.com/in/steven-brok-15a0ba59/'
   googleMapsApiKey: ''
