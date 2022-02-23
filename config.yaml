@@ -6,7 +6,7 @@ params:
 
   # Meta ---- 
   
-  author: ''
+  author: 'Steven Brok'
   icon: images/favicon.ico
   logo: images/bbb_main.png
   avatar: images/bbb_main.png
@@ -14,7 +14,8 @@ params:
     - css/custom1.css
     - css/custom2.css
   description: 'Wij zijn een betrouwbaar en flexibel adviesbureau dat sinds 2014 gespecialiseerd is in het maken van constructieve berekeningen. Wij geven constructieve adviezen in staal-, hout, beton en metselwerkconstructies gericht op de woning en utiliteitsbouw.'
-  email: 'stefan@chartwise.nl'
+  email: 'info@bouwbureaubrok.nl'
+  formspree: 'https://formspree.io/f/xwkyozde'
   
   # Navigation ---
   # You can add custom links before or after the default links
@@ -64,13 +65,13 @@ params:
         icon: icon-pencil
         img: img_8.jpg
         title: Offerte aanvragen
-        url: '#contact'
+        url: '#fh5co-contact'
       - button: Neem contact op
         description: 'Heb je nog overige vragen? Bel of mail ons dan direct.'
         icon: icon-envelope
         img: img_10.jpg
         title: Contact
-        url: 'mailto:s.brok@bouwbureaubrok.nl'
+        url: 'mailto:info@bouwbureaubrok.nl'
         
     video:
       title: Watch the video

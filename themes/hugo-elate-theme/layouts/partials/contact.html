@@ -21,13 +21,13 @@
 				</div>
 				{{ if .Site.Params.contact.form }}
 				<div class="col-md-6 to-animate">
-					<form method="post" action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}">
+					<form method="post" action="{{ .Site.Params.formspree }}" enctype="multipart/form-data">
 					
 					<!-- Name --> 
 					<div class="form-group ">
 						{{ with .Site.Params.contact.name }}
 						<label for="name" class="sr-only">{{ . | markdownify }}</label>
-						<input id="name" class="form-control" name="name" placeholder="{{ . }}" type="text" required>
+						<input id="name" class="form-control" name="Naam" placeholder="{{ . }}" type="text" required>
 						{{ end }}
 					</div>
 					
@@ -35,7 +35,7 @@
 					<div class="form-group ">
 						{{ with .Site.Params.contact.address }}
 						<label for="address" class="sr-only">{{ . | markdownify }}</label>
-						<input id="address" class="form-control" name="name" placeholder="{{ . }}" type="text">
+						<input id="address" class="form-control" name="Adres" placeholder="{{ . }}" type="text">
 						{{ end }}
 					</div>
 					
@@ -43,7 +43,7 @@
 					<div class="form-group ">
 						{{ with .Site.Params.contact.postcode }}
 						<label for="postcode" class="sr-only">{{ . | markdownify }}</label>
-						<input id="postcode" class="form-control" name="name" placeholder="{{ . }}" type="text">
+						<input id="postcode" class="form-control" name="Postcode" placeholder="{{ . }}" type="text">
 						{{ end }}
 					</div>
 					
@@ -51,7 +51,7 @@
 					<div class="form-group ">
 						{{ with .Site.Params.contact.city }}
 						<label for="city" class="sr-only">{{ . | markdownify }}</label>
-						<input id="city" class="form-control" name="name" placeholder="{{ . }}" type="text">
+						<input id="city" class="form-control" name="Woonplaats" placeholder="{{ . }}" type="text">
 						{{ end }}
 					</div>
 					
@@ -59,7 +59,7 @@
 					<div class="form-group ">
 						{{ with .Site.Params.contact.email }}
 						<label for="email" class="sr-only">{{ . | markdownify }}</label>
-						<input id="email" class="form-control" name="_replyto" placeholder="{{ . }}" type="email" required>
+						<input id="email" class="form-control" name="Email" placeholder="{{ . }}" type="email" required>
 						{{ end }}
 					</div>
 					
@@ -67,7 +67,7 @@
 					<div class="form-group ">
 						{{ with .Site.Params.contact.phone }}
 						<label for="phone" class="sr-only">{{ . | markdownify }}</label>
-						<input id="phone" class="form-control" name="phone" placeholder="{{ . }}" type="text">
+						<input id="phone" class="form-control" name="Telefoon Nummer" placeholder="{{ . }}" type="text">
 						{{ end }}
 					</div>
 					
@@ -75,14 +75,14 @@
 					<div class="form-group ">
 						{{ with .Site.Params.contact.type }}
 						<label for="type" class="sr-only">{{ . | markdownify }}</label>
-						<select id="type" name="type" class="form-control">
+						<select id="type" name="Type project" class="form-control">
 						    <option disabled selected value> -- {{ . }} -- </option>
-						    <option value="draagmuur">Draagmuur verwijderen</option>
-						    <option value="aanbouw">Aanbouw plaatsen</option>
-						    <option value="nieuwbouw">Nieuwe woningbouw</option>
-						    <option value="staalconstructie">3D staalconstructie</option>
-						    <option value="overig">Overige constructieve aanpassingen</option>
-						    <option value="uurbasis">Op uurbasis</option></option>
+						    <option value="Draagmuur verwijderen">Draagmuur verwijderen</option>
+						    <option value="Aanbouw">Aanbouw plaatsen</option>
+						    <option value="Nieuwbouw">Nieuwe woningbouw</option>
+						    <option value="Staalconstructie">3D staalconstructie</option>
+						    <option value="Overig">Overige constructieve aanpassingen</option>
+						    <option value="Op uurbasis">Op uurbasis</option></option>
 						</select>
 						{{ end }}
 					</div>
@@ -91,7 +91,7 @@
 					<div class="form-group ">
 						{{ with .Site.Params.contact.message }}
 						<label for="message" class="sr-only">{{ . | markdownify }}</label>
-						<textarea id="message" cols="30" rows="5" class="form-control" name="message" placeholder="{{ . }}"></textarea>
+						<textarea id="message" cols="30" rows="5" class="form-control" name="Beschrijving" placeholder="{{ . }}"></textarea>
 						{{ end }}
 					</div>
 					
@@ -106,7 +106,7 @@
 					  </span>
 						{{ with .Site.Params.contact.files }}
 						<label class = "btn btn-warning" style = "margin-top:10px;" for="files" class="sr-only" >{{ . | markdownify }}</label>
-					 <input  id = "files" style="display: none;" type="file" name="attachment" multiple>
+					 <input  id = "files" style="display: none;" type="file" name="Bijlage" multiple>
 						{{ end }}
 					</div>
 					
