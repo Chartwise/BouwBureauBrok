@@ -286,6 +286,8 @@ params:
         - info@bouwbureaubrok.nl
       - - icon-briefcase
         - Kvk - 61517666
+      - - icon-info
+        - <a href="files/Algemene voorwaarden.pdf">Algemene voorwaarden</a>
     enable: yes
     form: yes
     map: yes
